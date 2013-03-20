@@ -1,0 +1,28 @@
+<h1>Danh sách các món ăn hôm nay</h1>
+
+<%= form_tag do %>
+  <% @dishes.each do |d| %>
+    <label class='radio'><%= radio_button_tag 'dish', d.id %> <%= d.name %></label>
+  <% end %>
+  <%= submit_tag 'Đặt món', class: 'btn btn-primary'%>
+<% end %> 
+
+<table class='table'>
+  <thead>
+    <tr>
+      <th>Người đặt</th>
+      <th>Tên món</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @orders.each do |o| %>
+    <tr>
+      <td><%= o.user.email %></td>
+      <td><%= o.dish.name %></td>
+      <td><%= link_to 'Hủy', cancel_order_path(o.id, method: 'delete'), class: 'btn btn-danger' if o.user_id == current_user.id %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+

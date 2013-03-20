@@ -1,0 +1,23 @@
+# encoding: utf-8
+class AddDishes < ActiveRecord::Migration
+  Dish.create(name: 'Cá biển chiên sốt cà', day_of_week: 1)
+  Dish.create(name: 'Sườn non sốt chua cay', day_of_week: 1)
+  Dish.create(name: 'Đùi gà chiên', day_of_week: 1)
+  Dish.create(name: 'Mắm lóc chưng thịt ba chỉ', day_of_week: 1)
+  Dish.create(name: 'Thịt ba chỉ kho trứng', day_of_week: 2)
+  Dish.create(name: 'Tàu hủ dồn thịt sốt cà', day_of_week: 2)
+  Dish.create(name: 'Cá kèo kho', day_of_week: 2)
+  Dish.create(name: 'Chả cá thác lác', day_of_week: 2)
+  Dish.create(name: 'Cá ba sa kho', day_of_week: 3)
+  Dish.create(name: 'Thịt cốt lếch rô ti', day_of_week: 3)
+  Dish.create(name: 'Gà kho gừng', day_of_week: 3)
+  Dish.create(name: 'Bò xào củ hành', day_of_week: 3)
+  Dish.create(name: 'Tôm rang thịt', day_of_week: 4)
+  Dish.create(name: 'Vịt kho gừng', day_of_week: 4)
+  Dish.create(name: 'Cá rô chiên', day_of_week: 4)
+  Dish.create(name: 'Cá trê kho', day_of_week: 4)
+  Dish.create(name: 'Mực xào chua ngọt', day_of_week: 5)
+  Dish.create(name: 'Cá lóc kho tiêu', day_of_week: 5)
+  Dish.create(name: 'Sườn non ram', day_of_week: 5)
+  Dish.create(name: 'Thịt luộc mắm tôm', day_of_week: 5)
+end

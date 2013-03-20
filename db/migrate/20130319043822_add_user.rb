@@ -1,0 +1,15 @@
+class AddUser < ActiveRecord::Migration
+#  User.create(email: 'anhptn@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'anhvh@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'hieuvt@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'tuanbd@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'thuongnth@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'thont@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'phongvh@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'khoainm@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'ngocdtb@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'vuongnl@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'cuongnm@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'uyenntm@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
+#  User.create(email: 'taihh@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')    
+end
