@@ -11,5 +11,5 @@ class AddUser < ActiveRecord::Migration
 #  User.create(email: 'vuongnl@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
 #  User.create(email: 'cuongnm@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
 #  User.create(email: 'uyenntm@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')
-  User.create(email: 'taihh@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')    
+#  User.create(email: 'taihh@nexlesoft.com', password: 'nexlesoft', password_confirmation: 'nexlesoft')    
 end
